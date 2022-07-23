@@ -1,0 +1,435 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Nunito', sans-serif;
+
+}
+
+header {
+    height: 87px;
+    background-color: #FDF2E9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Rubik", sans-serif;
+
+    color: black;
+}
+
+.logoImg {
+    margin-left: 45px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    font-weight: 600;
+    margin-right: 60px;
+}
+
+.nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    margin-right: 40px;
+}
+
+.nav ul li {
+    margin: 25px;
+    transition: 0.5s;
+    cursor: pointer;
+    color: #333;
+}
+
+.nav ul li:hover {
+    color: #D47420;
+}
+
+.tryforfree {
+    font-size: large;
+    font-weight: 600;
+    color: #fff;
+    background-color: #D47420;
+    border-radius: 9px;
+    border: none;
+    cursor: pointer;
+    padding: 9px 28px 9px 28px;
+    box-sizing: border-box;
+    box-shadow: 3px 3px 10px black;
+}
+
+.section1 {
+    background-color: #FDF2E9;
+    height: 88vh;
+}
+
+.row1 {
+    max-width: 130rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+    grid-gap: 90px;
+
+}
+
+.description {
+    margin-left: 145px;
+
+}
+
+.description>h1 {
+    font-weight: 800;
+    font-size: 45px;
+    color: #333;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    line-height: 55px;
+    margin-top: 75px;
+
+}
+
+.description>p {
+    font-family: "Rubik", sans-serif;
+    color: #333;
+    line-height: 1.8;
+    font-size: 21.5px;
+    font-weight: 400;
+    margin-top: 25px;
+}
+
+.sectin1-btn1 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #f3801c;
+    border-radius: 9px;
+    border: none;
+    cursor: pointer;
+    padding: 9px 28px 9px 28px;
+    box-sizing: border-box;
+    margin-top: 40px;
+    transition: 1s;
+    box-shadow: 3px 3px 10px black;
+}
+
+.sectin1-btn1:hover {
+    background-color: #D47420;
+}
+
+.sectin1-btn2 {
+    font-size: 21px;
+    font-weight: 600;
+    color: #333;
+    background-color: #fff;
+    border-radius: 9px;
+    border: none;
+    cursor: pointer;
+    padding: 9px 28px 9px 28px;
+    box-sizing: border-box;
+    margin-left: 15px;
+    transition: 1s;
+    box-shadow: 3px 3px 10px black;
+}
+
+.sectin1-btn2:hover {
+    background-color: rgb(179, 174, 174);
+}
+
+.delivered {
+    display: flex;
+    margin-top: 75px;
+    justify-content: center;
+
+}
+
+.delivered-Imgs {
+    display: flex;
+    margin-right: 145px;
+    position: absolute;
+    left: 145px;
+}
+
+.customersImg {
+    border-radius: 50%;
+    border: 3px solid white;
+    margin-right: -14px;
+}
+
+.delivered-text {
+    margin-top: 15px;
+    font-size: large;
+    font-weight: bold;
+    position: relative;
+    left: 95px;
+    color: #333;
+}
+
+.delivered-text span {
+    color: #f3801c;
+}
+
+.row1Img1 {
+    margin-top: 50px;
+}
+
+.container-featured {
+    background-color: white;
+    max-width: 1500px;
+}
+
+.container-featured>h5 {
+    text-align: center;
+    margin-top: 50px;
+    color: #333;
+    font-weight: bold;
+}
+
+.featured-logos {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+    color: #333;
+}
+
+.featured-logos img {
+    margin: 0px -188px 0px -161px;
+}
+
+.how {
+    margin-top: 100px;
+    margin-left: 175px;
+    margin-bottom: 10px;
+}
+
+.subheading1 {
+    display: block;
+    color: #D47420;
+    font-size: medium;
+    font-weight: 800;
+    letter-spacing: 0.75px;
+    font-family: 'Arial Narrow Bold', sans-serif;
+}
+
+.how h2 {
+    display: block;
+    font-weight: 800;
+    font-size: 39px;
+    color: #333;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    line-height: 60px;
+    margin-bottom: 15px;
+
+}
+
+.container-steps {
+    max-width: 130rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    margin-top: 85px;
+    row-gap: 6.6rem;
+
+}
+
+.step-text {
+    margin-right: 75px;
+    margin-left: 177px;
+
+}
+
+.step-number {
+    font-size: 65px;
+    font-weight: 800;
+    color: #ddd;
+    margin-bottom: 12px;
+    font-family: 'Arial Narrow Bold', sans-serif;
+}
+
+.heading-tertiary {
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 12px;
+}
+
+.step-description {
+    color: #333;
+    line-height: 1.5;
+    font-size: 18px;
+
+}
+
+.step-img {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.step-img::before {
+    content: "";
+    background-color: #fdf2e9;
+    border-radius: 50%;
+    position: absolute;
+    top: 8%;
+    left: 28%;
+    width: 330px;
+    height: 330px;
+    z-index: -2;
+}
+
+.step-img::after {
+    content: "";
+    background-color: #fae5d3;
+    border-radius: 50%;
+    position: absolute;
+    top: 19%;
+    left: 33%;
+    width: 250px;
+    height: 250px;
+    z-index: -1;
+}
+
+.subheading {
+    color: #D47420;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-size: medium;
+    font-weight: 700;
+    margin-left: 49%;
+}
+
+.section-meals {
+    margin-top: 150px;
+}
+
+.heading-secondary {
+    color: #333;
+    text-align: center;
+    font-family: "Rubik", sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.container-grid-items {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 100vw;
+    margin-left: 185px;
+ }
+
+.meal {
+    box-shadow: 5px 5px 15px black;
+    border-radius: 11px;
+    overflow: hidden;
+    transition: 0.5s;
+    cursor: pointer;
+    height: 490px;
+    width: 336px;
+
+}
+
+.meal:hover {
+    transform: translateY(-20px);
+}
+
+
+.meal-content {
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.meal-tags {
+    display: flex;
+}
+
+.tag-tag--vegetarian {
+    color: #333;
+    background-color: #51CF66;
+    border-radius: 10px;
+    padding: 2px 12px 2px 12px;
+    font-weight: 700;
+    align-items: center;
+}
+
+.tag-tag--vegetarian1 {
+    color: #333;
+    background-color: #FFD43B;
+    border-radius: 10px;
+    padding: 2px 10px 2px 10px;
+    font-weight: 700;
+    align-items: center;
+    margin-left: 6px;
+}
+
+.meal-title {
+    color: #333;
+    font-size: 25px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.meal-attributes {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.meal-attribute {
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+}
+
+.meal-icon-md-hydrated {
+    color: #f3801c;
+}
+
+.diet {
+    height: 490px;
+    width: 336px;
+}
+
+.diet-heading {
+    color: #333;
+    font-size: 30px;
+    font-family: 'Arial Narrow Bold', sans-serif;
+}
+
+.list {
+    list-style: none;
+    color: #333;
+    margin-top: 25px;
+}
+
+#listIcon {
+    color: #f3801c;
+}
+
+.list-item {
+    font-size: 20px;
+    line-height: 2.3;
+}
+
+.container-all-recipes {
+    margin-left: 46%;
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+
+.container-all-recipes a {
+    color: #f3801c;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+}
